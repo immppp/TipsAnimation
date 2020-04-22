@@ -1,0 +1,17 @@
+<resources>
+    <!--    提示信息的属性定义-->
+    <declare-styleable name="TipsView">
+        <!--        绘制外圈圆的半径-->
+        <attr name="circleRadius" format="dimension" />
+        <!--        外圈圆的厚度-->
+        <attr name="circleStrokeWidth" format="dimension" />
+        <!--        开始时图形的颜色-->
+        <attr name="circleStartColor" format="color" />
+        <!--        结束时图形的颜色-->
+        <attr name="circleEndColor" format="color" />
+        <!--        图形变换的类型-->
+        <attr name="circleType" format="string" />
+        <!--        图形的动画次数-->
+        <attr name="repeatTimes" format="integer" />
+    </declare-styleable>
+</resources>

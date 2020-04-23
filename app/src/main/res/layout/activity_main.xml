@@ -8,12 +8,33 @@
     tools:context=".MainActivity">
 
     <com.imp.tipslibrary.TipsView
+        android:id="@+id/right_tv"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:circleRadius="150dp"
-        app:circleStrokeWidth="10dp"
-        app:circleType="triangle"
+        app:circleStrokeWidth="15dp"
+        app:circleType="right"
         app:repeatTimes="1" />
+
+    <com.imp.tipslibrary.TipsView
+        android:id="@+id/switch_tv"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:circleRadius="150dp"
+        app:circleStrokeWidth="15dp"
+        app:circleType="stop"
+        app:repeatTimes="1" />
+
+    <com.imp.tipslibrary.TipsView
+        android:id="@+id/triangle_tv"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:circleRadius="150dp"
+        app:circleStrokeWidth="15dp"
+        app:circleType="triangle"
+        app:repeatTimes="0" />
 
 </LinearLayout>

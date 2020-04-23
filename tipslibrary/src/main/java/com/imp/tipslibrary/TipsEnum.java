@@ -14,6 +14,7 @@ public enum TipsEnum {
     LAMENT("lament", "惊叹号"),
     START("start", "开始"),
     STOP("stop", "暂停"),
+    WRONG("wrong", "错误"),
     ;
 
     TipsEnum(String code, String des) {
